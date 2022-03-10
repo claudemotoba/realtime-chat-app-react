@@ -1,16 +1,17 @@
 import { Outlet } from "react-router";
 
 import Header from "../header/Header";
+import { LayoutContainer } from "./Layout.styled";
 
 
 const Layout = () => {
     return(
-        <div>
+        <LayoutContainer>
             <Header/>
             <div>
                 <Outlet/>
             </div>
-        </div>
+        </LayoutContainer>
     )
 }
 

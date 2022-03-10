@@ -32,12 +32,12 @@ const Header = () => {
             </div>
             <Ul className="col-sm-5 my-0">
                 <Li className="col-2 py-3">
-                    <NavLink to="/home">
+                    <NavLink to="/admin/home">
                         <AiFillHome/>
                     </NavLink>
                 </Li>
                 <Li className="col-2 py-3">
-                    <NavLink to="/messanger">
+                    <NavLink to="/admin/messanger">
                         <BsMessenger/>
                     </NavLink>
                 </Li>
